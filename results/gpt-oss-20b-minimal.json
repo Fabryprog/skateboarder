@@ -1,0 +1,23 @@
+{
+  "benchmark": "skateboard",
+  "prompt": "minimal",
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "timestamp": "2026-10-05T20:19:17+02:00",
+  "params": {
+    "max_tokens": 128000
+  },
+  "reasoning": {
+    "requested": "default",
+    "effort": null
+  },
+  "contributor": "\u001b[A",
+  "hardware": {
+    "os": "Darwin 24.5.0 arm64",
+    "cpu": "Apple M1 Pro",
+    "gpu": "Apple Silicon (unified memory)",
+    "ram_gb": 16
+  },
+  "error": "<urlopen error [Errno 61] Connection refused>",
+  "seconds": 0.0
+}

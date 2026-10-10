@@ -1,0 +1,23 @@
+{
+  "benchmark": "skateboard",
+  "prompt": "minimal",
+  "model": "qwen3-8b-4bit",
+  "endpoint": "http://localhost:8000/v1",
+  "timestamp": "2026-10-05T20:23:18+02:00",
+  "params": {
+    "max_tokens": 128000,
+    "no_reasoning": true
+  },
+  "reasoning": {
+    "requested": "disabled",
+    "effort": null
+  },
+  "hardware": {
+    "os": "Darwin 24.5.0 arm64",
+    "cpu": "Apple M1 Pro",
+    "gpu": "Apple Silicon (unified memory)",
+    "ram_gb": 16
+  },
+  "error": "module 'socket' has no attribute 'TCP_KEEPIDLE'",
+  "seconds": 0.0
+}
